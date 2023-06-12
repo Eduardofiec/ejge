@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+ background-color: #8AE7FF;
+}
+
+header{
+    background-color: #6CF578;
+    position: fixed;
+    width: 100%;
+    height: 12vh;
+    top: 0;
+    border-bottom: 4px solid orangered;
+}
+ul{
+  list-style-type: none;
+}
+li{
+    display: inline-block;
+    color:black;
+    font-size: 4vh;
+    margin-top:-2vh;
+    padding: 1vh;
+    width:30vw;
+    text-align: center;
+    margin-left: -3vh;
+    font-family: sans-serif;
+    background-color: #6CF578;
+    border-left: orangered solid 4px;
+    border-bottom: orangered solid 4px;
+    border-right: orangered solid 4px;
+    height: 5vh;
+}
+
+li:hover{
+    background-color: #00ff15;
+}
+
+#img-top{
+    background-image: url("https://wallpaperaccess.com/full/26174.png");
+    height: 35vh;
+    width: 60vw;
+    background-repeat: no-repeat;
+    margin-top: 15vh;
+    margin-left: 20vw;
+    border-radius: 10px;
+    background-size: cover;
+    animation: img_movie infinite 10s;
+}
+
+#top-text{
+    margin-left: 47.1vw;
+    font-weight: bold;
+    z-index: 99;
+    color:white;
+    font-size: 4vh;
+    height: 1vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#top-div1{
+    width: 100%;
+    background-color: orangered;
+    z-index: 0;
+    height: 5vh;
+    top:0;
+}
+.texto_medio{
+    margin-left: 20vw;
+    width: 55.8vw;
+    text-align: center;
+    background-color: #6bf577;
+    padding: 2vw;
+    border-radius: 10px;
+    border: 0.2vw solid black;
+    font-family: sans-serif;
+    font-size: 4vh;
+}
+#top-h1:hover{
+    animation: h1-color 5s infinite;
+}
+#maps{
+    width: 50vw;
+    border-radius: 10px;
+}
+
+
+@keyframes img_movie{
+    0%{
+        background-image: url("https://p4.wallpaperbetter.com/wallpaper/766/564/1001/dna-nano-tech-wallpaper-preview.jpg");
+    }
+    25%{
+        background-image: url("https://wallpaperaccess.com/full/26174.png");
+    }
+    50%{
+        background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-High-Tech-Wallpaper.jpg");
+    }
+    100%{
+        background-image: url("https://p4.wallpaperbetter.com/wallpaper/766/564/1001/dna-nano-tech-wallpaper-preview.jpg");
+    }
+}
+
+@keyframes h1-color{
+    0%{
+        color: white;
+    }
+    40%{
+        color: #6bf577;
+    }
+    60%{
+        color: #8AE7FF;
+    }
+    80%{
+        color:orangered
+    }
+    100%{
+        color:white;
+    }
+}
