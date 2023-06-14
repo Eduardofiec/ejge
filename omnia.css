@@ -13,7 +13,6 @@ header{
 }
 ul{
   list-style-type: none;
- 
   height: 6vh;
   width: 100%;
   display: flex;
@@ -25,7 +24,7 @@ li{
     font-size: 4vh;
     margin-top:-2vh;
     padding: 1vh;
-    width:30vw;
+    width:22.25vw;
     text-align: center;
     font-family: sans-serif;
     background-color: #6CF578;
