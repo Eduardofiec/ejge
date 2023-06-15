@@ -35,6 +35,12 @@ li{
     margin-left: -0.5vw;
 }
 
+.orange{
+    padding: 2%;
+    background-color: orangered;
+    border: 0.2vw solid black;
+}
+
 li:hover{
     background-color: #00ff15;
 }
@@ -92,7 +98,7 @@ li:hover{
     width: 25%;
     height: 50vh;
     background-repeat: no-repeat;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 5px 5px 15px black;
 }
 
 #valor{
@@ -110,7 +116,7 @@ a{
     width:23.5%;
 }
 #comprar{
-    background-color: orangered;
+    background-color: #6bf577;
     width: 50%;
     margin-left: 25%;
     border: black solid 2px;
