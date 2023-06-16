@@ -13,16 +13,15 @@ header{
 }
 ul{
   list-style-type: none;
+  margin-top:-0vh;
   height: 6vh;
   width: 100%;
   display: flex;
   flex-direction: row;
-  
 }
 li{
     color:black;
     font-size: 4vh;
-    margin-top:-2vh;
     padding: 1vh;
     width:22.25vw;
     text-align: center;
@@ -93,7 +92,6 @@ li:hover{
     width: 50vw;
     border-radius: 10px;
 }
-
 .cards{
     width: 25%;
     height: 50vh;
