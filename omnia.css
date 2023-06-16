@@ -119,6 +119,12 @@ a{
     margin-left: 25%;
     border: black solid 2px;
 }
+@media screen and (max-width: 480px) {
+    .texto_medio{
+    margin-left: 10vw;
+    width: 80vw;
+    }
+}
 
 @keyframes img_movie{
     0%{
