@@ -36,7 +36,7 @@ li{
 
 .orange{
     padding: 2%;
-    background-color: #909495;
+    background-color: #0BBEDD;
     border: 0.2vw solid black;
 }
 
@@ -78,7 +78,7 @@ li:hover{
     margin-left: 20vw;
     width: 55.8vw;
     text-align: center;
-    background-color: #6bf577;
+    background-color: #909495;
     padding: 2vw;
     border-radius: 10px;
     border: 0.2vw solid black;
@@ -86,7 +86,7 @@ li:hover{
     font-size: 2vw;
 }
 .top-h1:hover{
-    animation: h1-color 5s infinite;
+    animation: h1-color 2s infinite;
 }
 .maps{
     width: 50vw;
@@ -99,26 +99,12 @@ li:hover{
     box-shadow: 5px 5px 15px black;
 }
 
-#valor{
-    text-align: center;
-}
+
 a{
     text-decoration: none;
 }
 
-#va{
-    margin-left: 7.5%;
-}
-#va li{
-    border-top: orangered solid 4px;
-    width:23.5%;
-}
-#comprar{
-    background-color: #6bf577;
-    width: 50%;
-    margin-left: 25%;
-    border: black solid 2px;
-}
+
 @media screen and (max-width: 480px) {
     .texto_medio{
     margin-left: 10vw;
