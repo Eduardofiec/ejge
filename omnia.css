@@ -1,0 +1,178 @@
+html {
+    font-size: 16px;
+}
+
+body{
+background-repeat: no-repeat;
+background-size: 100%;
+ margin: 0;
+ background-color: #0CC1E0;
+}
+
+header{
+    background-color: #909495;
+    position: fixed;
+    width: 100%;
+    height: 12vh;
+    top: 0;
+    border-bottom: 4px solid #909495;
+}
+ul{
+  list-style-type: none;
+  margin-top:-0vh;
+  height: 6vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+li{
+    color:black;
+    font-size: 4vh;
+    padding: 1vh;
+    width:22.25vw;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #909495;
+    border-left: #909495 4px;
+    border-bottom: #909495 4px;
+    border-right: #909495 4px;
+    height: 5vh;
+    margin-left: -0.5vw;
+}
+
+.orange{
+    padding: 3%;
+    background-color: #0BBEDD;
+    border: 0.2vw solid black;
+}
+
+li:hover{
+    background-color: #0BBEDD;
+}
+
+#img-top{
+    background-image: url("https://wallpaperaccess.com/full/26174.png");
+    height: 25rem;
+    width: 70%;
+    background-repeat: no-repeat;
+    margin-top: 15vh;
+    margin-left: 15%;
+    border-radius: 10px;
+    background-size: cover;
+    animation: img_movie infinite 10s;
+}
+
+.top-text{
+    margin-left: 47.1vw;
+    font-weight: bold;
+    z-index: 99;
+    color:white;
+    font-size: 4vh;
+    height: 1vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#top-div1{
+    width: 100%;
+    background-color:#909495;
+    z-index: 0;
+    height: 5vh;
+    top:0;
+}
+
+.texto_medio{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    width: 55.8vw;
+    text-align: justify;
+    background-color: #909495;
+    padding: 1vw;
+    border-radius: 10px;
+    border: 0.3vw solid black;
+    font-family: sans-serif;
+    font-size: 2vw;
+}
+
+.top-h1:hover{
+    animation: h1-color 2s infinite;
+}
+.maps{
+    width: 35vw;
+    border-radius: 10px;
+}
+.cards{
+    width: 25%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 15px black;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    .texto_medio{
+    margin-left: 10vw;
+    width: 80vw;
+    }
+}
+
+@keyframes img_movie{
+    0%{
+        background-image: url("https://p4.wallpaperbetter.com/wallpaper/766/564/1001/dna-nano-tech-wallpaper-preview.jpg");
+    }
+    25%{
+        background-image: url("https://wallpaperaccess.com/full/26174.png");
+    }
+    50%{
+        background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-High-Tech-Wallpaper.jpg");
+    }
+    100%{
+        background-image: url("https://p4.wallpaperbetter.com/wallpaper/766/564/1001/dna-nano-tech-wallpaper-preview.jpg");
+    }
+}
+
+@keyframes h1-color{
+    0%{
+        color: #0BBEDD;
+    }
+    40%{
+        color: white;
+    }
+    60%{
+        color: white;
+    
+    }
+    100%{
+        color: #8AE7FF;
+    }
+}
+
+footer {
+    animation: macadamia 4s infinite;
+    color: black;
+    margin-bottom: 0;
+}
+
+footer.RodaPe {
+    font-size: 3rem;
+    text-align: center;
+}
+
+@keyframes macadamia {
+    0%{
+        color: white;
+    }
+    40%{
+        color: black;
+    }
+    60%{
+        color: grey;
+    }
+    100%{
+        color:white;
+    }
+}
