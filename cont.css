@@ -1,0 +1,85 @@
+form{
+    background-color: gray;
+    margin-left: 20vw ;
+    margin-right: 20vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 0.5vw solid black;
+    border-radius: 10px;
+}
+
+#formulario div{
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+#formulario label{
+    font-size: 1.5rem;
+    width: 100%;
+    white-space: nowrap;
+
+}
+.lalau{
+    width: 42rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+}
+#formulario textarea{
+    width: 42rem;
+}
+#formulario button{
+    padding-left: 17.5rem;
+    padding-right: 17.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #0BBEDD;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#formulario select{
+    height: 3rem;
+}
+
+h3{
+    white-space: nowrap;
+}
+
+#botao{
+    font-weight: bold;
+}
+
+#botao input{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.mapscon{
+    width: 35vw;
+    border-radius: 10px;
+}
+
+.blue{
+    height: 57.7vh;
+    width: 35.5%;
+    margin-left: 32%;
+    border: 0.4vw solid black;
+    border-radius: 10px;
+}
+
+footer {
+    animation: macadamia 4s infinite;
+    color: black;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color:gray;
+}
+
+footer.RodaPe {
+    font-size: 3rem;
+    text-align: center;
+}
